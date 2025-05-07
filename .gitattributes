@@ -1,3 +1,5 @@
+*.ipynb filter=lfs diff=lfs merge=lfs -text
+*.bin filter=lfs diff=lfs merge=lfs -text
 signed_file filter=lfs diff=lfs merge=lfs -text
 ciphertext_file filter=lfs diff=lfs merge=lfs -text
 decrypted_file filter=lfs diff=lfs merge=lfs -text
